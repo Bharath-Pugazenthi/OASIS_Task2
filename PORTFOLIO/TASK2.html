@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: justify;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    header img {
+      border-radius: 10%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .contact {
+      margin-top: 2rem;
+    }
+
+    .contact p {
+      font-size: 1.2rem;
+    }
+
+    .portfolio {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+    }
+
+    .project {
+      margin-right: 20;
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: calc(33.33% - 20px);
+    }
+
+    .project img {
+      max-width: 90%;
+      height: 200px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img align="center" src="./buja.jpg" alt="Profile Image">
+    <h1>P BHARATH</h1>
+    <p><b>Full Stack Web Developer</b></p>
+
+    <div class="contact">
+      <h2>Contact Information</h2>
+      <p>Email: pbharath6733@gmail.com</p>
+      <p>Phone: 9363293416</p>
+    </div>
+  </header>
+  <div class="container">
+    <div class="portfolio">
+      <div class="project">
+        <h3>Plagirism Checker</h3>
+        <img src="./project1.jpg" alt="Project 1">
+        <p>The proposed plagiarism detection webpage using Flask in Python is similar to other plagiarism detection
+          tools available in the market.This project gives the suggestions for the text similarity of the input text
+          with the related contents available online and gives us the respective urls of those websites.</p>
+      </div>
+      <div class="project">
+        <h3>Alzheimer Disease Classifier</h3>
+        <img src="./project2.jpg" alt="Project 2">
+        <p>Alzheimer's disease is a major public health problem affecting millions of people worldwide. Early disease
+          detection and accurate diagnosis are crucial for effective treatment and care. In this project, we developed a
+          machine learning model to detect Alzheimer's disease using brain imaging data and gives the output according
+          to its classes.</p>
+      </div>
+      <div class="project">
+        <h3>Eye Cataract Detection</h3>
+        <img src="./project3.jpg" alt="Project 3">
+        <p>This Project includes of a machine learning model that accurately detects cataracts in eye images, providing
+          a diagnostic tool to assist in early cataract detection and treatment, enhancing visual health outcomes.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 Bharathportfolio. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
